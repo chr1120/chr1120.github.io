@@ -157,7 +157,7 @@ PPE Facility Management System은 가스 측정기와 분석기를 전문으로 
 ### Database ✅
 - **MySQL 8.0** - 관계형 데이터베이스
 - **JPA/Hibernate** - ORM 매핑
-- **데이터베이스 스키마**: 12개 테이블 (Product, Order, User, Chemical 등)
+- **데이터베이스 스키마**: 35개 테이블 (Product, Order, User, Chemical 등)
 - **관계형 설계**: 다대다, 일대다, 일대일 관계 구현
 
 ### Build & Development Tools ✅
@@ -208,7 +208,7 @@ src/main/resources/
 ```
 
 ### 🗄️ 데이터베이스 스키마
-- **총 12개 테이블**: Product, Order, Chemical, Review, QnA, Quote, Cart 등
+- **총 35개 테이블**: Product, Order, Chemical, Review, QnA, Quote, Cart 등
 - **관계형 설계**: 다대다(Product-Chemical), 일대다(Order-OrderItem), 일대일(Order-Delivery)
 - **ERD 문서**: `database_erd.md` 참조
 
@@ -224,7 +224,7 @@ src/main/resources/
 - **구매자 기능**: 제품 검색/필터링, 장바구니, 주문, 리뷰, Q&A, 견적, 검교정
 - **판매자 기능**: 제품 등록/수정/관리, 주문 관리, 대시보드
 - **관리자 기능**: 통계 대시보드, 상품/주문/포인트 관리, 페이징
-- **데이터베이스**: 12개 테이블, 관계형 설계, ERD 문서화
+- **데이터베이스**: 35개 테이블, 관계형 설계, ERD 문서화
 - **API**: 76개 엔드포인트, REST API 지원
 
 ### 🔄 부분 구현 (10%)
@@ -239,7 +239,7 @@ src/main/resources/
 - **CSS 파일**: 15개
 - **JavaScript 파일**: 12개
 - **API 엔드포인트**: 76개
-- **데이터베이스 테이블**: 12개
+- **데이터베이스 테이블**: 35개
 
 ## 📦 설치 및 실행
 
